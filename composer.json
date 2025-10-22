@@ -1,0 +1,38 @@
+{
+    "name": "kenny-mgn/profitbase-php-client",
+    "description": "Guzzle-based PHP client for the Profitbase API with access token handling and rate limit control.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "KennyMgn\\ProfitbaseClient\\": "src/",
+            "KennyMgn\\ProfitbaseClient\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kenny-MGN",
+            "email": "kennymgn@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.10",
+        "php": "^8.1",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "ext-mbstring": "*",
+        "ext-dom": "*",
+        "ext-libxml": "*",
+        "ext-xmlwriter": "*",
+        "phpunit/phpunit": "^10.5",
+        "phpstan/phpstan": "^2.1",
+        "squizlabs/php_codesniffer": "^4.0"
+    },
+    "scripts": {
+        "test": "phpunit",
+        "lint": "phpcs --standard=phpcs.xml",
+        "analyze": "phpstan analyse"
+    }
+}
