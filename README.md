@@ -1,6 +1,6 @@
 # Profitbase API Client for PHP
 [![CI](https://github.com/Kenny-MGN/profitbase-php-client/actions/workflows/ci.yml/badge.svg)](https://github.com/Kenny-MGN/profitbase-php-client/actions)
-[![Latest Stable Version](https://img.shields.io/packagist/v/Kenny-MGN/profitbase-php-client.svg)](https://packagist.org/packages/Kenny-MGN/profitbase-php-client)
+[![Latest Stable Version](https://img.shields.io/packagist/v/kenny-mgn/profitbase-php-client.svg)](https://packagist.org/packages/Kenny-MGN/profitbase-php-client)
 [![License](https://img.shields.io/github/license/Kenny-MGN/profitbase-php-client.svg)](LICENSE)
 [![PHPStan](https://img.shields.io/badge/static--analysis-PHPStan-blue.svg)](https://phpstan.org/)
 [![Code Style](https://img.shields.io/badge/code%20style-PSR--12-green.svg)](https://www.php-fig.org/psr/psr-12/)
